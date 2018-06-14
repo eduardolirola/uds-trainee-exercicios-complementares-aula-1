@@ -8,7 +8,7 @@ public class parouimpar {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("PROGRAMA QUE VERIFICA SE O NUMERO É PAR OU IMPAR");
-        System.out.print("DIGITE O NUMERO DESEJADO :");
+        System.out.print("DIGITE O NUMERO DESEJADO: ");
         int numero = scanner.nextInt();
 
         // Qualquer numero divisível por 2 é um numero par.

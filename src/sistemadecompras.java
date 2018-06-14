@@ -1,3 +1,5 @@
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.Scanner;
 
 public class sistemadecompras {
@@ -54,6 +56,8 @@ public class sistemadecompras {
                         break;
 
                 }
+                break;
+
             case 2:
                 System.out.println("ROTEADORES DISPONÍVEIS EM ESTOQUE :");
                 System.out.println("[1] ROTEADOR TP-LINK 150mbps: R$ 100,00");
@@ -83,6 +87,8 @@ public class sistemadecompras {
                         break;
 
                 }
+
+                break;
 
             case 3:
                 System.out.println("PLACAS DISPONÍVEIS EM ESTOQUE :");
@@ -114,6 +120,8 @@ public class sistemadecompras {
 
                 }
 
+                break;
+
             case 4:
                 System.out.println("MONITORES DISPONÍVEIS EM ESTOQUE :");
                 System.out.println("[1] MONITOR LED AOC 15': R$ 200,00");
@@ -144,6 +152,8 @@ public class sistemadecompras {
 
                 }
 
+                break;
+
             case 5:
                 System.out.println("ACESSORIOS DISPONÍVEIS EM ESTOQUE :");
                 System.out.println("[1] MOUSE MULTILASER: R$ 25,00");
@@ -173,17 +183,30 @@ public class sistemadecompras {
                         break;
 
                 }
+                break;
 
 
 
-                    System.out.println("SEU SALDO ATUAL É : R$" + total);
+
+
+
 
 
         }
-    }
+        System.out.println("SEU SALDO ATUAL É : R$" + total);
 
+
+        }
 
 }
+
+
+
+
+
+
+
+
 
 
 
