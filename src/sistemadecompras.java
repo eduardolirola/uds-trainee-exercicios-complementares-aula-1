@@ -8,7 +8,8 @@ public class sistemadecompras {
 
 
         double saldo = 1500;
-        double total = 0;
+        double total = 1500;
+        int opcao1;
 
         System.out.println("Olá seu saldo atual é de R$ " + saldo );
         System.out.println("escolha sua opção de compra: ");
@@ -16,6 +17,9 @@ public class sistemadecompras {
 
         Scanner scanner = new Scanner(System.in);
 
+
+
+        while (total > 0){
         System.out.println("[1] GABINETES");
         System.out.println("[2] ROTEADORES");
         System.out.println("[3] PLACAS");
@@ -23,7 +27,7 @@ public class sistemadecompras {
         System.out.println("[5] ACESSORIOS");
         System.out.print("OPÇÃO : ");
 
-        int opcao1 = scanner.nextInt();
+        opcao1 = scanner.nextInt();
 
         switch (opcao1) {
 
@@ -39,20 +43,20 @@ public class sistemadecompras {
 
                 switch (opcao1){
                     case 1:
-                        total = saldo - 100.00;
+                        total = total - 100.00;
                         break;
 
                     case 2:
-                        total = saldo - 150.00;
+                        total = total - 150.00;
                         break;
                     case 3:
-                        total = saldo - 200.00;
+                        total = total - 200.00;
                         break;
                     case 4:
-                        total = saldo - 500.00;
+                        total = total - 500.00;
                         break;
                     case 5:
-                        total = saldo - 600.00;
+                        total = total - 600.00;
                         break;
 
                 }
@@ -70,20 +74,20 @@ public class sistemadecompras {
 
                 switch (opcao1) {
                     case 1:
-                        total = saldo - 100.00;
+                        total = total - 100.00;
                         break;
 
                     case 2:
-                        total = saldo - 150.00;
+                        total = total - 150.00;
                         break;
                     case 3:
-                        total = saldo - 180.00;
+                        total = total - 180.00;
                         break;
                     case 4:
-                        total = saldo - 190.00;
+                        total = total - 190.00;
                         break;
                     case 5:
-                        total = saldo - 240.00;
+                        total = total - 240.00;
                         break;
 
                 }
@@ -102,20 +106,20 @@ public class sistemadecompras {
 
                 switch (opcao1) {
                     case 1:
-                        total = saldo - 100.00;
+                        total = total - 100.00;
                         break;
 
                     case 2:
-                        total = saldo - 70.00;
+                        total = total - 70.00;
                         break;
                     case 3:
-                        total = saldo - 350.00;
+                        total = total - 350.00;
                         break;
                     case 4:
-                        total = saldo - 420.00;
+                        total = total - 420.00;
                         break;
                     case 5:
-                        total = saldo - 570.00;
+                        total = total - 570.00;
                         break;
 
                 }
@@ -134,20 +138,20 @@ public class sistemadecompras {
 
                 switch (opcao1) {
                     case 1:
-                        total = saldo - 200.00;
+                        total = total - 200.00;
                         break;
 
                     case 2:
-                        total = saldo - 250.00;
+                        total = total - 250.00;
                         break;
                     case 3:
-                        total = saldo - 350.00;
+                        total = total - 350.00;
                         break;
                     case 4:
-                        total = saldo - 720.00;
+                        total = total- 720.00;
                         break;
                     case 5:
-                        total = saldo - 850.00;
+                        total = total - 850.00;
                         break;
 
                 }
@@ -166,20 +170,20 @@ public class sistemadecompras {
 
                 switch (opcao1) {
                     case 1:
-                        total = saldo - 25.00;
+                        total = total - 25.00;
                         break;
 
                     case 2:
-                        total = saldo - 140.00;
+                        total = total - 140.00;
                         break;
                     case 3:
-                        total = saldo - 189.00;
+                        total = total - 189.00;
                         break;
                     case 4:
-                        total = saldo - 200.00;
+                        total = total - 200.00;
                         break;
                     case 5:
-                        total = saldo - 150.00;
+                        total = total - 150.00;
                         break;
 
                 }
@@ -196,7 +200,8 @@ public class sistemadecompras {
         System.out.println("SEU SALDO ATUAL É : R$" + total);
 
 
-        }
+
+        }}
 
 }
 
